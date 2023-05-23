@@ -1,0 +1,68 @@
+{
+    "name": "webpack-goldenrush-kit",
+    "version": "1.1.0",
+    "description": "webpack assembly that extends html and css",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development webpack serve --open --config ./build/webpack.dev.conf.js",
+        "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.build.conf.js"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+    ],
+    "author": "https://github.com/everjupe13",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/everjupe13/webpack-goldenrush-kit.git"
+    },
+    "keywords": [
+        "webpack",
+        "scss",
+        "postcss",
+        "javascript",
+        "js",
+        "vue"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "aos": "^2.3.4",
+        "axios": "^0.27.2",
+        "inputmask": "^5.0.7",
+        "sass": "^1.58.0",
+        "swiper": "^8.1.4",
+        "vue": "^2.6.11",
+        "vue-axios": "^3.4.1",
+        "vue-the-mask": "^0.11.1",
+        "vuex": "^3.6.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.5",
+        "@babel/preset-env": "^7.10.4",
+        "autoprefixer": "^9.8.5",
+        "babel-loader": "^8.1.0",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^6.0.3",
+        "cross-env": "^7.0.3",
+        "css-loader": "^4.1.1",
+        "cssnano": "^4.1.10",
+        "file-loader": "^6.0.0",
+        "html-webpack-plugin": "^4.3.0",
+        "mini-css-extract-plugin": "^2.7.2",
+        "postcss": "^8.4.14",
+        "postcss-import": "^15.0.0",
+        "postcss-loader": "^4.0.3",
+        "postcss-url": "^10.1.3",
+        "resolve-url-loader": "^5.0.0",
+        "sass-loader": "^10",
+        "style-loader": "^1.2.1",
+        "vue-loader": "^15.9.3",
+        "vue-style-loader": "^4.1.2",
+        "vue-template-compiler": "^2.6.11",
+        "webpack": "^5.82.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.13.3",
+        "webpack-merge": "^5.8.0"
+    }
+}

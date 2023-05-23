@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+} 
+
+html {
+    overflow-x: hidden;
+}
+  
+body {
+    min-width: 320px;
+
+    text-rendering: optimizeLegibility;
+    text-decoration-skip: objects;
+
+    overflow-x: hidden;
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none;
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+iframe {
+    border: 0;
+}
+
+textarea {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+
+    vertical-align: top;
+    overflow: auto;
+    resize: none;
+}
+
+button {
+    border: none;
+
+    background-color: transparent;
+
+    cursor: pointer;
+    outline: none;
+}
+
+input,
+textarea {
+    outline: none;
+}

@@ -1,0 +1,62 @@
+@charset 'UTF-8';
+
+@import 'utils/custom-reset';
+@import 'utils/layouts';
+
+// @import 'objects/common/logo';
+// @import 'objects/common/nav';
+// @import 'objects/common/section-promo';
+// @import 'objects/common/title-one';
+// @import 'objects/common/button';
+// @import 'objects/common//title-two';
+// @import 'objects/common/black-block.scss';
+// @import 'objects/common/feed-form';
+// @import 'objects/common/section-services';
+// @import 'objects/common/humburger.scss';
+
+@import 'objects/header';
+@import 'objects/footer';
+
+
+
+
+:root {
+   --gray-color: #283139;
+   --nav-footer-color: hwb(208 19% 75%);
+   --white-color: #fff;
+   --white-blue-color: #e1f4fc;
+   --black-color: #333;
+   --blue-color: #6B9EBD;
+   --black-blue-color: #2a4a9c;
+   --gray-text-color: #7a7a7a;
+
+   --ff-global: 'Roboto', Roboto, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+   --ff-montserrat: 'Montserrat', Roboto, Segoe UI, Helvetica, Arial, sans-serif;
+   // --ff-mulish: 'Mulish', Roboto, Segoe UI, Helvetica, Arial, sans-serif;
+   --text-color: var(--white-color);
+   --font-lh: 1.3;
+}
+
+body {
+   &.--disable-scroll {
+      overflow-y: hidden;
+      height: 100vh;
+   }
+
+   font-family: var(--ff-global);
+   font-weight: 400;
+   line-height: var(--font-lh);
+   color: var(--text-color);
+
+   min-height: 100vh;
+
+   background: var(--white-blue-color);
+}
+
+#app {
+   display: flex;
+   flex-direction: column;
+
+   min-height: 100vh;
+   height: 100%;
+}
